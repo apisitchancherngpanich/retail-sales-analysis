@@ -86,4 +86,56 @@ ORDER BY
     `Quantity_Category`,
     PurchaseCount DESC;
 
+-- =========================================
+-- Q6: Which Product Category generates
+--     the highest total sales and quantity sold?
+-- =========================================
 
+SELECT
+    `Product Category`,
+    SUM(`Quantity`) AS Quantity,
+    SUM(`Total Amount`) AS TotalAmount
+FROM retail_sales
+GROUP BY `Product Category`
+ORDER BY
+    Quantity DESC,
+    TotalAmount DESC;
+
+-- =========================================
+-- Q7: Which month generates the highest total sales?
+-- =========================================
+
+SELECT
+    Month,
+    SUM(`Total Amount`) AS TotalSales
+FROM retail_sales
+GROUP BY Month
+ORDER BY TotalSales DESC;
+
+-- =========================================
+-- Q8: Which Age Group has the highest average transaction value?
+-- =========================================
+
+SELECT
+    `Age_Group`,
+    AVG(`Total Amount`) AS avgtotalsales
+FROM retail_sales
+GROUP BY `Age_Group`
+ORDER BY avgtotalsales DESC;
+
+-- =========================================
+-- Q9: Which Age Group prefers Single Item,
+--     Few Items, or Bulk Purchase?
+-- =========================================
+
+SELECT
+    `Age_Group`,
+    `Quantity_Category`,
+    COUNT(*) AS PurchaseCount
+FROM retail_sales
+GROUP BY
+    `Age_Group`,
+    `Quantity_Category`
+ORDER BY
+    `Age_Group`,
+    PurchaseCount DESC;
