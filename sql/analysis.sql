@@ -122,20 +122,3 @@ SELECT
 FROM retail_sales
 GROUP BY `Age_Group`
 ORDER BY avgtotalsales DESC;
-
--- =========================================
--- Q9: Which Age Group prefers Single Item,
---     Few Items, or Bulk Purchase?
--- =========================================
-
-SELECT
-    `Age_Group`,
-    `Quantity_Category`,
-    COUNT(*) AS PurchaseCount
-FROM retail_sales
-GROUP BY
-    `Age_Group`,
-    `Quantity_Category`
-ORDER BY
-    `Age_Group`,
-    PurchaseCount DESC;
