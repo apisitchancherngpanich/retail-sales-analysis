@@ -122,3 +122,27 @@ SELECT
 FROM retail_sales
 GROUP BY `Age_Group`
 ORDER BY avgtotalsales DESC;
+
+-- =========================================
+-- Q9: What is the overall sales performance
+--     of the business?
+-- =========================================
+
+SELECT
+    SUM(`Total Amount`) AS TotalSales,
+    SUM(`Quantity`) AS TotalQuantity,
+    COUNT(*) AS TotalTransactions,
+    AVG(`Total Amount`) AS AverageTransactionValue
+FROM retail_sales;
+
+-- =========================================
+-- Q10: Which Product Category has the highest
+--      average transaction value?
+-- =========================================
+
+SELECT
+    `Product Category`,
+    AVG(`Total Amount`) AS AverageTransactionValue
+FROM retail_sales
+GROUP BY `Product Category`
+ORDER BY AverageTransactionValue DESC;
