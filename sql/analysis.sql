@@ -2,6 +2,44 @@
 -- Retail Sales Data Analysis
 -- =========================================
 
+-- ตรวจ จำนวนข้อมูลทั้งหมด
+SELECT COUNT(*) AS TotalRows
+    
+FROM retail_sales;
+
+-- ตรวจข้อมูลซ้ำด้วย Transaction ID
+SELECT `Transaction ID`, COUNT(*) AS DuplicateCount FROM retail_sales
+GROUP BY `Transaction ID` HAVING COUNT(*) > 1;
+
+-- ตรวจค่า NULL
+
+SELECT
+
+    SUM(`Transaction ID` IS NULL) AS NullTransactionID,
+
+    SUM(`Date` IS NULL) AS NullDate,
+
+    SUM(`Product Category` IS NULL) AS NullCategory,
+
+    SUM(`Quantity` IS NULL) AS NullQuantity,
+
+    SUM(`Total Amount` IS NULL) AS NullTotalAmount
+
+FROM retail_sales;
+
+-- ตรวจค่าผิดปกติ
+
+SELECT *
+
+FROM retail_sales
+
+WHERE `Quantity` <= 0
+
+   OR `Price per Unit` < 0
+
+   OR `Total Amount` < 0;
+
+
 -- =========================================
 -- Q1: Which age group generated the highest
 --     and lowest total sales?
