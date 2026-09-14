@@ -36,4 +36,12 @@ Key Insights
 -Average transaction value: Beauty had the highest average transaction value at 467.48, followed by Electronics at 458.79 and Clothing at 443.25.
 
 
+Repository Structure
+README.md — Project overview, key insights, and recommendations.
+sql/analysis.sql — SQL queries for data validation and retail sales analysis.
+data/retail_sales.csv — Retail transaction dataset.
+images/query-results/ — Screenshots of SQL query results.
+images/dashboard.png — Final dashboard screenshot.
+
+
 
