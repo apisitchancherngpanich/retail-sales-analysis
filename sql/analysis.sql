@@ -74,18 +74,15 @@ ORDER BY
 -- =========================================
 
 SELECT
-    `Age_Group`,
+    Age_Group,
     Gender,
     `Product Category`,
-    SUM(Quantity) AS TotalSales
+    SUM(`Total Amount`) AS TotalSales
 FROM retail_sales
-GROUP BY
-    `Age_Group`,
-    Gender,
+GROUP BY Age_Group, Gender,
     `Product Category`
 ORDER BY
-    `Age_Group`,
-    Gender,
+    `Product Category`,
     TotalSales DESC;
 
 -- =========================================
