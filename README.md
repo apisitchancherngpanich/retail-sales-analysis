@@ -33,6 +33,7 @@ Key Insights
 -Although Electronics sold fewer items than Clothing, it generated more revenue, indicating a higher value per item.
 -Monthly sales trend: May recorded the highest total sales at 53,150, accounting for approximately 11.66% of overall sales. September recorded the lowest sales at 23,620.
 -Customer segment performance: Male customers aged 45–54 generated the highest Beauty sales at 19,900. Male customers aged 25–34 led Clothing sales at 21,665, while male customers aged 55–64 generated the highest Electronics sales at 21,850.
+-Average transaction value: Beauty had the highest average transaction value at 467.48, followed by Electronics at 458.79 and Clothing at 443.25.
 
 
 
