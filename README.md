@@ -31,6 +31,7 @@ Key Insights
 -The average transaction value was 456.00.
 -Product performance: Electronics generated the highest total sales at 156,905, while Clothing recorded the highest sales volume with 894 items sold.
 -Although Electronics sold fewer items than Clothing, it generated more revenue, indicating a higher value per item.
+-Monthly sales trend: May recorded the highest total sales at 53,150, accounting for approximately 11.66% of overall sales. September recorded the lowest sales at 23,620.
 
 
 
