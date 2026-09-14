@@ -29,6 +29,8 @@ Key Insights
 -Overall sales performance: The business generated total sales of 456,000 from 1,000 transactions.
 -A total of 2,514 items were sold.
 -The average transaction value was 456.00.
+-Product performance: Electronics generated the highest total sales at 156,905, while Clothing recorded the highest sales volume with 894 items sold.
+-Although Electronics sold fewer items than Clothing, it generated more revenue, indicating a higher value per item.
 
 
 
