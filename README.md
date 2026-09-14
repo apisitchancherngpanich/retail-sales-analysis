@@ -24,3 +24,11 @@ Checked missing values
 Checked duplicate transaction IDs
 Validated quantity, price, and total amount
 Verified date formats 
+
+Key Insights
+-Overall sales performance: The business generated total sales of 456,000 from 1,000 transactions.
+-A total of 2,514 items were sold.
+-The average transaction value was 456.00.
+
+
+
