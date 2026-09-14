@@ -68,9 +68,8 @@ ORDER BY
     TotalAmount DESC;
 
 -- =========================================
--- Q3: Which age groups and genders generate
---     the highest sales volume across
---     different product categories?
+-- Q3: Which age group and gender generate 
+--     the highest total sales in each product category?
 -- =========================================
 
 SELECT
