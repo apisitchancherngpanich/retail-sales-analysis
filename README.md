@@ -35,6 +35,12 @@ Key Insights
 -Customer segment performance: Male customers aged 45–54 generated the highest Beauty sales at 19,900. Male customers aged 25–34 led Clothing sales at 21,665, while male customers aged 55–64 generated the highest Electronics sales at 21,850.
 -Average transaction value: Beauty had the highest average transaction value at 467.48, followed by Electronics at 458.79 and Clothing at 443.25.
 
+Recommendations
+-Maintain sufficient inventory for Electronics because it generates the highest total sales.
+-Ensure adequate stock availability for Clothing because it has the highest number of items sold.
+-Investigate the factors behind the strong sales performance in May and assess whether similar strategies can be applied to other months.
+-Review product, customer, and promotional patterns in September to identify possible reasons for its lower sales performance.
+-Develop category-specific marketing campaigns for the leading customer segments: males aged 45–54 for Beauty, males aged 25–34 for Clothing, and males aged 55–64 for Electronics.
 
 Repository Structure
 README.md — Project overview, key insights, and recommendations.
