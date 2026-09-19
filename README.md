@@ -41,9 +41,9 @@ This project analyzes retail transaction data to identify sales trends, customer
 - **Customer segment performance:** Male customers aged 45–54 generated the highest Beauty sales at 19,900. Male customers aged 25–34 led Clothing sales at 21,665, while male customers aged 55–64 generated the highest Electronics sales at 21,850.
 - **Category transaction value:** Beauty had the highest average transaction value at 467.48, followed by Electronics at 458.79 and Clothing at 443.25.
 -**Q3 Analysis Results:**
-![Beauty](q3-beauty-segments.png)
-![Clothing](q3-clothing-segments.png)
-![Electronics](q3-electronics-segments.png)
+![Beauty](images/q3-beauty-segments.png)
+![Clothing](images/q3-clothing-segments.png)
+![Electronics](images/q3-electronics-segments.png)
 
 ## Recommendations
 
