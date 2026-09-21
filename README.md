@@ -49,6 +49,7 @@ This project analyzes retail transaction data to identify sales trends, customer
 ![Electronics](images/q3-electronics-segments.png)
 
 ## Q6 Analysis Results
+images/q6-category-performance.png
 
 
 ## Recommendations
