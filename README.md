@@ -48,6 +48,9 @@ This project analyzes retail transaction data to identify sales trends, customer
 
 ![Electronics](images/q3-electronics-segments.png)
 
+## Q6 Analysis Results
+
+
 ## Recommendations
 
 - Maintain sufficient inventory for Electronics because it generates the highest total sales.
