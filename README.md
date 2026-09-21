@@ -51,6 +51,9 @@ This project analyzes retail transaction data to identify sales trends, customer
 ## Q6 Analysis Results
 ![Category Performance](images/q6-category-performance.png)
 
+## Q7 Analysis Results
+![Monthly sales trend](images/
+
 
 ## Recommendations
 
