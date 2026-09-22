@@ -57,7 +57,7 @@ This project analyzes retail transaction data to identify sales trends, customer
 ## Q9 Analysis Results
 ![Overall Sales Performance](images/q9-overall-sales-performance.png)
 
-## Q10 
+## Q10 Analysis Results
 ![Average Transaction Value](images/q10-average-transaction-value.png)
 
 
